@@ -106,7 +106,17 @@ import Layout from '../layouts/Layout.astro';
 		</ol>
 
 		<h2>Aesthetic Direction</h2>
-		<img src="aesthetic-direction.png" alt="">
+		<p><img src="aesthetic-direction.png" alt=""></p>
+
+		<h2>Logomark</h2>
+		<p>Please let me know if you need this regenerated with colors to match your aesthetic.</p>
+		<p>
+			<figure>
+				<img src="amichi-vecchi-logomark.svg" alt="">
+				<figcaption>Right Click → Download</figcaption>
+			</figure>
+		</p>
+		
 	</main>
 </Layout>
 
@@ -126,5 +136,14 @@ import Layout from '../layouts/Layout.astro';
 		line-height: 1;
 		text-align: center;
 		margin-bottom: 1em;
+	}
+	figure {
+		display: flex;
+		flex-direction: column;
+		width: fit-content;
+	}
+	figure > img {
+		display: block;
+		background-color: #f8fafc;
 	}
 </style>
